@@ -1,139 +1,39 @@
-[![CI](https://img.shields.io/badge/Github%20Pages-passing-gold.svg?logo=github)](ci)
-[![License: MIT](https://img.shields.io/badge/License-MIT-orange.svg)](https://opensource.org/licenses/MIT)
-[![Jekyll](https://img.shields.io/badge/jekyll-%3E%3D%204.3.2-green.svg)](https://jekyllrb.com/)
-[![Jekyll](https://img.shields.io/badge/gem%20version-3.2.33-blue.svg)](gem)
-<a href="https://jekyll-themes.com/byanko55/jekyll-theme-satellite">
-  <img
-    src="https://img.shields.io/badge/featured%20on-JT-red.svg"
-    height="20"
-    alt="Jekyll Themes Shield"
-  />
-</a>
+# Chirpy Starter
 
-# Satellite🛰️ - Jekyll blog theme
-An emotional and adorable blog theme powered by ***Jekyll***. 
+[![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy)][gem]&nbsp;
+[![GitHub license](https://img.shields.io/github/license/cotes2020/chirpy-starter.svg?color=blue)][mit]
 
-Live demo is available [here](https://byanko55.github.io)
+A minimal, ready-to-use template for creating a blog with the [**Chirpy**][chirpy] Jekyll theme. Get up and running in minutes with all critical files pre-configured.
 
-![Demo Page](https://i.ibb.co/h1QF06V/demo.webp)
+## Why This Starter Exists
 
-### Light Mode
-![Demo Page-light](https://i.ibb.co/DtDPCpR/white.webp)
+When installing Chirpy through [RubyGems.org][gem], Jekyll can only read a subset of theme files (`_data`, `_layouts`, `_includes`, `_sass`, `assets`) and limited `_config.yml` options from the gem. As a result, users cannot enjoy the full out-of-the-box experience that Chirpy offers.
 
-### Dark Mode
-![Demo Page-dark](https://i.ibb.co/BjsrWg2/dark.webp)
+To unlock all features, the following files must be present in your Jekyll site:
 
-### Fresh and Attractive Design
-<p>
-<img src="https://i.ibb.co/4NwrTyj/image-2.webp" height="400px" align="center"/>
-<img src="https://i.ibb.co/WvyBzkL/Animation.gif" height="400px" align="center"/>
-</p>
-
-<br></br>
-
-## Features
-
-* Comment System using *giscus*
-* Copy contents of Code Block
-* Dark/Light Theme
-* Google Analytics
-* Hierarchical Categorization
-* Mobile friendly design
-* Related Posts
-* RSS/Sitemap support
-* Search Post by Title or Tags
-* Syntax Highlighter (*highlight.js*)
-* Table of Contents
-* Visitor Counter (*goatcounter*)
-
-
-## Installation
-
-There are two ways to setup this theme:
-<br></br>
-
-### Method 1: Build from source (Recommended)
-Fork [this repository](https://github.com/byanko55/jekyll-theme-satellite) or download the [source](https://github.com/byanko55/jekyll-theme-satellite/releases) as a zip. 
-
-If you use as destination a repository named USERNAME.github.io, then your url will be https://USERNAME.github.io/.
-
-Otherwise (let's say `myblog`), you need to edit the '*baseurl*' parameter in `_config.yml`. In this case, the root page will be served to "https://USERNAME.github.io/myblog/".
-
-```yml
-# set baseurl as "/<repo-name>". ex) baseurl: /myblog
-baseurl: /myblog
-```
-<br></br>
-
-
-### Method 2: Utilize Gem package
-Create a clean site directory (Follow the **Instruction 1~4** described [here](https://jekyllrb.com/docs/)).
-
-The following materials are redundant, so remove them.
-* index.markdown
-* about.markdown
-<br></br>
-
-Then, add this line to your Jekyll site's `Gemfile`:
-
-```bash
-gem "jekyll-theme-satellite"
+```shell
+.
+├── _config.yml
+├── _plugins
+├── _tabs
+└── index.html
 ```
 
-You need to replace the initial `_config.yml` file with the [prepared one](https://github.com/byanko55/jekyll-theme-satellite/blob/master/docs/_config.yml).
-<br></br>
+This starter bundles those files from the latest **Chirpy** release along with a [CD][CD] workflow, so you can start writing immediately.
 
-### Modify your site setting
+## Usage
 
-Now fill in the **site variable** such as blog name, profile image, and social accounts in `_config.yml`.
+Check out the [theme's docs](https://github.com/cotes2020/jekyll-theme-chirpy/wiki).
 
-```yml
-title: Example.com
-description: "Satellite - jekyll blog theme"
-logo_img: "/assets/img/favicon.webp"
-profile_img: "/assets/img/profile.jpg"
+## Contributing
 
-# Social Links
-email: example@gmail.com
-github_username: github
-twitter_username: twitter
-instagram_username: instagram
-linkedin_username: linkedin
-facebook_username: facebook
-```
-
-
-### Run site locally
-
-From the site root directory, install the dependencies:
-
-```
-bundle install
-```
-
-
-Start a Jekyll service.
-
-```
-bundle exec jekyll serve
-```
-
-Now open [http://localhost:4000](http://localhost:4000) in your browser.
-<br></br>
-
-## Customizing
-
-You can find useful manuals for customizing your site from the below table:
-
-|||
-|---|---|
-|Posting guidelines|[link](https://github.com/byanko55/jekyll-theme-satellite/blob/master/docs/Posting%20Guide.md)|
-|Enabling ***comment system***|[link](https://github.com/byanko55/jekyll-theme-satellite/blob/master/docs/Comment%20System.md)|
-|Enabling ***Visitor counter***|[link](https://github.com/byanko55/jekyll-theme-satellite/blob/master/docs/Visitor%20Counter.md)|
-
-## Contribution
-If you would like to report a bug or request a new feature, please open [an issue](https://github.com/byanko55/jekyll-theme-satellite/issues) We are open to any kind of feedback or collaboration.
-<br></br>
+This repository is automatically updated with new releases from the theme repository. If you encounter any issues or want to contribute to its improvement, please visit the [theme repository][chirpy] to provide feedback.
 
 ## License
-© 2024 *Yankos*. This theme is available as open source under the terms of the [MIT License](https://opensource.org/license/mit/).
+
+This work is published under [MIT][mit] License.
+
+[gem]: https://rubygems.org/gems/jekyll-theme-chirpy
+[chirpy]: https://github.com/cotes2020/jekyll-theme-chirpy/
+[CD]: https://en.wikipedia.org/wiki/Continuous_deployment
+[mit]: https://github.com/cotes2020/chirpy-starter/blob/master/LICENSE
