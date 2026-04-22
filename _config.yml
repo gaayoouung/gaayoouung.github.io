@@ -57,7 +57,7 @@ webmaster_verifications:
 # Web Analytics Settings
 analytics:
   google:
-    id: open -a "Visual Studio Code" _config.yml # fill in your Google Analytics ID
+    id: G-D2P3XJZ5DR # fill in your Google Analytics ID
   goatcounter:
     id: # fill in your GoatCounter ID
   umami:
