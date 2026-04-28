@@ -204,6 +204,13 @@ compress_html:
   ignore:
     envs: [development]
 
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-archives
+
 exclude:
   - "*.gem"
   - "*.gemspec"
@@ -224,8 +231,3 @@ jekyll-archives:
     tag: /tags/:name/
     category: /categories/:name/
 
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-archives
