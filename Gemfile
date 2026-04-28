@@ -13,4 +13,7 @@ end
 
 gem "wdm", "~> 0.2.0", :platforms => [:windows]
 
+gem "jekyll-feed"
+gem "jekyll-seo-tag"
 gem "jekyll-sitemap"
+gem "jekyll-archives"
