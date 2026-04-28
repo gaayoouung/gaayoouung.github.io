@@ -1,7 +1,7 @@
 ---
 title: GitHub Pages 블로그 만들어보기! (+Jekyll, Chirpy)
 date: 2026-04-22 
-categories: [Blog]
+categories: [Playground]
 tags: [github-pages, jekyll, chirpy, blog, github]
 ---
 
