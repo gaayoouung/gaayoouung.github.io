@@ -5,6 +5,23 @@ categories: [Blog]
 tags: [github-pages, jekyll, chirpy, blog, github]
 ---
 
+## GitHub Pages?
+GitHub Pages는 GitHub에서 무료로 제공하는 웹 호스팅 서비스 입니다.   
+GitHub 계정만 있으면 누구든지 쉽게 만들 수 있습니다.   
+
+사실 블로그를 플랫폼을 찾는다면 GitHub Pages보다 velog, 티스토리, 네이버 블로그 등이 더 사용하기 편하고 접근성도 좋다고 생각합니다.   
+velog나 티스토리는 이미지 넣는 것도 "딸깍" 한 번이면 되지만, GitHub Pages를 사용하려면 조금 귀찮은 과정을 거쳐야 합니다.  
+
+대신 GitHub Pages는 테마를 적용할 수도 있고, 파일 구조나 디자인을 직접 커스텀 할 수 있는 장점이 있습니다.   
+
+아무튼 제가 GitHub Pages를 선택한 이유는,   
+
+**뭔가 있어보임.**   
+ㅤ 
+
+
+그럼 이제 본격적으로 GitHub Pages를 사용한 블로그를 만들어보겠습니다!  
+
 ## 1. 블로그 저장소 준비
 먼저 GitHub에 사용자 페이지 저장소를 준비합니다.  
 이름.github.io 형식으로 만들어주시면 됩니다.
@@ -50,7 +67,7 @@ twitter:
 
 social:
   name: 김가영
-  email: banalite2412@gmail.com
+  email: 
   fediverse_handle:
   links:
     - https://github.com/gaayoouung
