@@ -1,46 +1,27 @@
 ---
-layout: default
+layout: secret-room-standalone
 title: 404
 permalink: /404.html
+body_class: secret-room-404
 ---
 
 <style>
   html,
-body,
-#main-wrapper,
-#main,
-main,
-.content {
-  background:
-    radial-gradient(circle at 20% 20%, rgba(255, 154, 203, 0.35), transparent 30%),
-    radial-gradient(circle at 80% 10%, rgba(190, 160, 255, 0.28), transparent 28%),
-    linear-gradient(135deg, #fff0f7, #f7f0ff, #eef7ff) !important;
-}
+  body {
+    min-height: 100%;
+    margin: 0;
+    background:
+      radial-gradient(circle at 20% 20%, rgba(255, 154, 203, 0.35), transparent 30%),
+      radial-gradient(circle at 80% 10%, rgba(190, 160, 255, 0.28), transparent 28%),
+      linear-gradient(135deg, #fff0f7, #f7f0ff, #eef7ff);
+  }
 
-#topbar {
-  background: linear-gradient(90deg, #ffe3f1, #f2e8ff) !important;
-  border-bottom: 1px solid #ff9acb !important;
-}
-
-#topbar-wrapper {
-  background: transparent !important;
-}
-
-#topbar h1,
-#topbar .site-title,
-#topbar span,
-#topbar i,
-#topbar a {
-  color: #d63384 !important;
-}
-
-#sidebar,
-footer {
-  background: transparent !important;
-}
+  .secret-room-main {
+    min-height: 100vh;
+  }
 
   .secret-room {
-    min-height: 80vh;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -74,23 +55,23 @@ footer {
   }
 
   .secret-menu {
-  display: grid;
-  gap: 0.8rem;
-  margin-top: 2rem;
-}
+    display: grid;
+    gap: 0.8rem;
+    margin-top: 2rem;
+  }
 
-.secret-menu a {
-  display: block;
-  padding: 0.9rem 1.2rem;
-  border-radius: 999px;
-  background: white;
-  color: #d63384;
-  text-decoration: none;
-  font-weight: 700;
-  border: 1px solid #ffc2dc;
-  transition: 0.2s;
-  cursor: inherit;
-}
+  .secret-menu a {
+    display: block;
+    padding: 0.9rem 1.2rem;
+    border-radius: 999px;
+    background: white;
+    color: #d63384;
+    text-decoration: none;
+    font-weight: 700;
+    border: 1px solid #ffc2dc;
+    transition: 0.2s;
+    cursor: inherit;
+  }
 
   .secret-menu a:hover {
     transform: translateY(-2px);
@@ -104,28 +85,18 @@ footer {
   }
 
   html,
-body,
-body *,
-#main-wrapper,
-#main-wrapper *,
-#topbar,
-#topbar *,
-#sidebar,
-#sidebar *,
-main,
-main *,
-.content,
-.content *,
-a,
-button,
-input,
-textarea,
-select,
-label,
-i,
-svg {
-  cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='36' height='36' viewBox='0 0 36 36'%3E%3Cpath d='M6 3 L28 18 L18 21 L23 32 L18 34 L13 23 L6 30 Z' fill='%23ff8ac8' stroke='%23ffffff' stroke-width='2'/%3E%3Cpath d='M6 3 L28 18 L18 21 L23 32 L18 34 L13 23 L6 30 Z' fill='none' stroke='%23d63384' stroke-width='1'/%3E%3C/svg%3E") 4 4, auto !important;
-}
+  body,
+  body *,
+  a,
+  button,
+  input,
+  textarea,
+  select,
+  label,
+  i,
+  svg {
+    cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='36' height='36' viewBox='0 0 36 36'%3E%3Cpath d='M6 3 L28 18 L18 21 L23 32 L18 34 L13 23 L6 30 Z' fill='%23ff8ac8' stroke='%23ffffff' stroke-width='2'/%3E%3Cpath d='M6 3 L28 18 L18 21 L23 32 L18 34 L13 23 L6 30 Z' fill='none' stroke='%23d63384' stroke-width='1'/%3E%3C/svg%3E") 4 4, auto !important;
+  }
 
 </style>
 
@@ -139,9 +110,9 @@ svg {
     <p>여기는 주인장의 개씹덕 홈페이지입니다.</p>
 
     <div class="secret-menu">
-  <a href="/secret-room/">들어가기</a>
-  <a href="/">← 정상 블로그로 도망가기</a>
-</div>
+      <a href="/secret-room/">들어가기</a>
+      <a href="/">← 정상 블로그로 도망가기</a>
+    </div>
 
     <p class="tiny">
       야르TV

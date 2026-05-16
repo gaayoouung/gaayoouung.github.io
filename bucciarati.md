@@ -1,7 +1,8 @@
 ---
-layout: default
+layout: secret-room-standalone
 title: 브루노 부차라티
 permalink: /secret-room/shrine/bucciarati/
+body_class: secret-room-character
 ---
 
 <style>

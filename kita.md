@@ -1,7 +1,8 @@
 ---
-layout: default
+layout: secret-room-standalone
 title: 키타 이쿠요
 permalink: /secret-room/shrine/kita/
+body_class: secret-room-character
 ---
 
 <style>
